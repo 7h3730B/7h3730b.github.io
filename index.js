@@ -19,3 +19,10 @@ window.onload = function () {
     // Begin body animation
     document.getElementsByTagName('body')[0].style.opacity = 1;
 };
+
+function copyToClipboard(element) {
+    navigator.clipboard.writeText(element.innerHTML).then(function () {
+        document.getElementById('copie-text').style.opacity = 1;
+        setTimeout(function(){ document.getElementById('copie-text').style.opacity = 0}, 3000);
+    });
+}
