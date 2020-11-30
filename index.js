@@ -23,6 +23,6 @@ window.onload = function () {
 function copyToClipboard(element) {
     navigator.clipboard.writeText(element.innerHTML).then(function () {
         document.getElementById('copie-text').style.opacity = 1;
-        setTimeout(function(){ document.getElementById('copie-text').style.opacity = 0}, 3000);
+        setTimeout(function () { document.getElementById('copie-text').style.opacity = 0 }, 3000);
     });
 }
