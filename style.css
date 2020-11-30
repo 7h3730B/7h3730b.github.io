@@ -1,0 +1,65 @@
+body {
+    background-color: #0f0f23;
+    font-family: "Source Code Pro", monospace;
+    color: white;
+    font-size: 3vmax;
+    opacity: 0;
+    -webkit-transition: opacity .8s ease-in-out;
+    -moz-transition: opacity .8s ease-in-out;
+    -ms-transition: opacity .8s ease-in-out;
+    -o-transition: opacity .8s ease-in-out;
+    transition: opacity .8s ease-in-out;
+}
+
+.container {
+    position: absolute;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#pb img {
+    width: 15vmax;
+    height: 15vmax;
+    border-radius: 50%;
+}
+
+#links {
+    min-width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+hr {
+    width: 30vmax;
+    border: 1px solid #00cc00;
+    border-radius: 40%;
+}
+
+p {
+    opacity: 1;
+    margin: 0px;
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+}
+
+.green, a {
+    text-decoration: none;
+    color: #00cc00;
+    text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+}
+.green:hover, a:hover, a:focus {
+    color: #99ff99;
+    text-shadow: 0 0 2px #99ff99, 0 0 5px #99ff99;
+}
