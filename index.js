@@ -2,7 +2,7 @@ window.onload = function () {
     let links = [
         ['github', 'https://github.com/7h3730B', '7h3730B'],
         ['twitter', 'https://twitter.com/7h3730B', '@7h3730B'],
-        ['envelope-open', 'mailto:teo.s@protonmail.com', 'teo.s@protonmail.com'],
+        ['envelope-open', 'mailto:teo.s@protonmail.com', 'teo.sb@protonmail.com'],
         ['discord', '#', '7h3730B#5491']
     ];
 
